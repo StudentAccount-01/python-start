@@ -1,5 +1,5 @@
 if __name__ == '__main__':
-    _ = input('Загадай число и нажми клавишу Enter')
+    input('Загадай число и нажми клавишу Enter')
 
     min_number = 1
     max_number = 100
@@ -23,4 +23,4 @@ if __name__ == '__main__':
             print(f'Твое число - {max_number}')
         else:
             print(f'Твое число - {min_number}')
-        print(f'Количество ходов - {step_count}')
+        print(f'Количество ходов - {step_count}. Игра закончена')
